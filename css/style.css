@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+     margin:10px 10px; 
+     position: relative;
+     font-family: 'Baloo Bhai';
+}
+div img{
+    width: 50px;
+    height: 50px;
+     margin:5px 5px; 
+}
+#navbar::before{
+    content: "";
+    height: 100%;
+    width:100%;
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    
+}
+#navbar ul{
+    display: flex;
+    font-size: 1.3rem;
+}
+#navbar ul li{
+    list-style: none;
+    
+
+ 
+}
+#navbar ul li a{
+
+padding: 3px 22px;
+text-decoration: none;
+display: block;
+border-radius: 30px;
+color: aliceblue;
+}
+#navbar ul li a:hover{
+
+    padding: 3px 22px;
+    background-color: aliceblue;
+
+    color:black;
+    }
+#home{
+    align-items: center;
+    justify-content: center;
+    padding: 3px 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+#home::before{
+    content: "";
+    height: 100%;
+    width:100%;
+    background: url("../images/i11.jpg");
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+    
+}
+.heading{
+    font-size: 3.5rem;
+    padding: 10px;
+    font-family: 'Baloo Bhai';
+
+}
+p{
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-family: 'Baloo Bhai';
+
+     
+}
+h1{
+    color: aliceblue;
+
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color:burlywood;
+    margin: 17px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#service{
+    display: flex;
+    margin:-19px;
+    padding: 34px;
+    /* width: auto;
+    height: auto; */
+}
+#service .box{
+    border:2px solid brown;
+    margin: 40px;
+    padding: 19px;
+    padding-right: 0%;
+    border-radius: 24px;
+    width: 400px;
+    background-color: rgb(224, 219, 219);
+    height: 250px;
+
+    
+}
+#service .box img{
+    height: 156px;
+    width: 156px;
+    position: relative;
+    padding-left: 25%;
+    
+}
+#service .box:hover{
+    background-color: rgb(155, 160, 165);
+    cursor: pointer;
+}
+
+.hp{
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    color: black;
+    padding-left: 30px;
+}
+.service_container{
+    margin-top: 300px;
+    display: flex;
+    margin-right: 200px;
+    width: 100%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.box p{
+    font-size: 1.8rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box{
+    width:auto;
+    height:auto;
+}
